@@ -1,0 +1,13 @@
+.about-us-container {
+  max-width: 560px;
+  padding: 28px 32px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.about-us-container h2 {
+  margin-top: 0;
+}

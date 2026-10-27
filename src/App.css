@@ -1,0 +1,46 @@
+.landing-page {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  padding: 32px;
+  color: #fff;
+}
+
+.background-image {
+  background-image: url('/images/background.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.landing-content {
+  text-align: center;
+}
+
+.landing-content h1 {
+  margin: 0;
+  font-size: 3.5rem;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.tagline {
+  margin: 12px 0 28px;
+  font-size: 1.3rem;
+}
+
+.get-started-button {
+  padding: 14px 40px;
+  border: none;
+  border-radius: 30px;
+  background: #f5c542;
+  color: #1f2d24;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.get-started-button:hover {
+  background: #ffd75e;
+}
